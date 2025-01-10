@@ -1,0 +1,57 @@
+.dev-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.dev-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icon img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover img {
+  transform: scale(1.1);
+}
+
+.social-icon.github img {
+  filter: grayscale(1);
+}
+
+.social-icon.github:hover img {
+  filter: grayscale(0);
+}
+
+.social-icon.linkedin img {
+  filter: sepia(1);
+}
+
+.social-icon.linkedin:hover img {
+  filter: sepia(0);
+}
+
+.social-icon.twitter img {
+  filter: hue-rotate(180deg);
+}
+
+.social-icon.twitter:hover img {
+  filter: hue-rotate(0deg);
+}
+
+.social-icon.devto img {
+  filter: saturate(2);
+}
+
+.social-icon.devto:hover img {
+  filter: saturate(1);
+}
